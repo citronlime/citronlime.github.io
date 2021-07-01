@@ -5,24 +5,41 @@
   padding: 0;
 }
 body {
-  background-color: deeppink;
+  
+  background-image: url("/img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+
   font-size: 20px;
   font-family: "Poppins", sans-serif;
+  color:slategrey;
 }
 h1 {
   color: gold;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
+}
+h2{
+  color:pink;
+  font-weight:500;
+  font-size:1.5rem;
+  margin-bottom:0.5rem;
+  margin-top:0.5rem;
 }
 main {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
 
-  margin-top: 25%;
+
+  margin-top: 6%;
 }
 p {
   text-align: center;
+  font-size:1rem;
+  font-weight:400;
+  margin-bottom:1rem;
+  padding:10px;
 }
 a {
   text-decoration:none;
@@ -33,4 +50,40 @@ a {
 a:hover{
   color:gold;
   font-size:1.5rem;
+}
+.columns{
+  display:flex;
+  margin-top:2rem;
+  width:920px;
+  margin-left:auto;
+  margin-right:auto;
+  
+ gap:1rem;
+}
+.col{
+  display:flex;
+  flex-direction:column;
+  flex-grow: 1;
+  text-align:center;
+  width:320px;
+  background-color:seashell;
+  border-radius:10px;
+  opacity: 0.8;
+  
+  
+  
+}
+.col a{
+  margin-top:auto;
+  color:steelblue;
+  font-weight:500;
+  margin-bottom:1rem;
+}
+.col img{
+  width:300px;
+  height:200px;
+  border-radius: 10px 10px 0 0 ;
+}
+.arrow{
+  color:gold;
 }
